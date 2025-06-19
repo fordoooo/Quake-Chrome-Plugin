@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Quake View",
+  "version": "0.3",
+  "description": "Send the current website to 360 Quake",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "https://quake.360.net/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Quake View"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon/logo.png",
+    "48": "icon/logo.png",
+    "128": "icon/logo.png"
+  }
+} 
