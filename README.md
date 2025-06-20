@@ -1,6 +1,7 @@
 # Quake View Chrome 扩展
 
 这是一个Chrome扩展版本的Quake查询工具，用于快速查看当前网站的Quake识别结果。
+![97e7c7c8ebbf20a63f949c9370a5506e](https://github.com/user-attachments/assets/3d38d1f8-86cc-41be-b93c-f05e64b01f1d)
 
 ## 功能特性
 
